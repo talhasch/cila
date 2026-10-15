@@ -43,7 +43,7 @@ Copy any text on your Mac and Cila offers to polish it: grammar, tone, translati
 ## Build and run
 
 ```sh
-git clone <repo-url> cila
+git clone https://github.com/talhasch/cila.git
 cd cila
 ./build.sh            # debug build → build/Cila.app
 open build/Cila.app
