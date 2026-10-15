@@ -1,0 +1,22 @@
+# SwiftPM / build output
+.build/
+build/
+.swiftpm/
+
+# Xcode (if the package is opened in Xcode)
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets (never commit keys or signing identities)
+.env
+credentials.json
+*.p12
+*.pem
